@@ -10,8 +10,8 @@ const QuoteCard = ({quote, handleChangeQuote}) => {
       <h1 className="quoteCard__title">Infogalax</h1>
 
       <p className="quoteCard__phrase">{quote.phrase}</p>
-
-      <button className="quoteCard__btn" onClick={handleChangeQuote}>Change</button>
+      
+      <button className="quoteCard__btn" onClick={handleChangeQuote}>↻</button>
       </article>
 
       <footer className="quoteCard__footer">

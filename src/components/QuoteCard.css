@@ -5,11 +5,41 @@
     text-align: center;
     align-items: center;
     padding: 10px;
-    color: white;
+    color:white;
 }
 
 .quoteCard__phrase {
     margin: 30px auto;
     max-width: 400px;
+    background-color: #fffdfd8f;
+    padding: 50px;
+    border-radius: 30px;
+    color: #0d0c0e;
+    font-size: larger;
+    
+}
+
+.quoteCard__btn {
+    /* font-size: 15px; */
+    display: inline-block;
+    background-color: rgb(221, 225, 230);
+    border-radius: 50%;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: medium;
+}
+
+
+/* .quoteCard__container {
+    background-color: #f7f5f580;
+    border-radius: 20px;
+} */
+
+
+
+.quoteCard__title {
+    font-size: 250%;
+    
 }
 
